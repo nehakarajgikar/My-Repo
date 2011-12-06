@@ -1,0 +1,32 @@
+test cases:
+
+1) getClosestQueryTerms -done
+- regular test
+
+2) getSnippet
+
+3) getEndOfWord - done
+-regular
+
+4) tokenize - done
+-regular
+
+5) getFullSnippet
+
+6) addHighlights - done
+
+// not required 7) getQueryTokens
+
+8) populateMap
+
+9) highlightDocument
+
+- testHighlightDocumentShort - where the doc string is lesser than the snippet length
+
+- testHighlightLongDocument - 
+
+- testQueryTermAtBeginningOfDocument - long doc, with query terma t beginning
+
+- testQueryTermAtEndOfDocument - long doc, with query term at the end
+
+
