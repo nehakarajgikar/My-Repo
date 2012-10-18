@@ -50,9 +50,9 @@ public class SnippetGenerator {
 		} catch (IOException e) {
 
 		}
-		Scanner sc = new Scanner(System.in);
+		Scanner scn = new Scanner(System.in);
 		System.out.println("enter search terms: ");
-		String search = sc.nextLine();
+		String search = scn.nextLine();
 		SnippetGenerator generator = new SnippetGenerator();
 		String snippet = generator.highlightDocument(sb.toString(), search);
 		System.out.println(snippet);
